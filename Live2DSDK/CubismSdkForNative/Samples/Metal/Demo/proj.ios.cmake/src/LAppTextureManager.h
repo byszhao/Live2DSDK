@@ -10,7 +10,7 @@
 
 #import <string>
 #import <MetalKit/MetalKit.h>
-#import <Type/csmVector.hpp>
+#import "csmVector.hpp"
 
 
 @interface LAppTextureManager : NSObject

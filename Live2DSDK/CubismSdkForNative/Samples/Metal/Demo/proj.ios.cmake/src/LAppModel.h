@@ -8,11 +8,11 @@
 #ifndef LAppModel_h
 #define LAppModel_h
 
-#import <CubismFramework.hpp>
-#import <Model/CubismUserModel.hpp>
-#import <ICubismModelSetting.hpp>
-#import <Type/csmRectF.hpp>
-#import <Rendering/Metal/CubismOffscreenSurface_Metal.hpp>
+#import "CubismFramework.hpp"
+#import "CubismUserModel.hpp"
+#import "ICubismModelSetting.hpp"
+#import "csmRectF.hpp"
+#import "CubismOffscreenSurface_Metal.hpp"
 
 /**
  * @brief ユーザーが実際に使用するモデルの実装クラス<br>

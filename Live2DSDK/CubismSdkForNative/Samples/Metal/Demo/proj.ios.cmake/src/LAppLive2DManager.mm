@@ -12,8 +12,8 @@
 #import "LAppModel.h"
 #import "LAppDefine.h"
 #import "LAppPal.h"
-#import <Rendering/Metal/CubismRenderer_Metal.hpp>
-#import "Rendering/Metal/CubismRenderingInstanceSingleton_Metal.h"
+#import "CubismRenderer_Metal.hpp"
+#import "CubismRenderingInstanceSingleton_Metal.h"
 
 @interface LAppLive2DManager()
 

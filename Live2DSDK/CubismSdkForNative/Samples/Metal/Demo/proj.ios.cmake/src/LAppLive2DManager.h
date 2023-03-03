@@ -8,9 +8,9 @@
 #ifndef LAppLive2DManager_h
 #define LAppLive2DManager_h
 
-#import <CubismFramework.hpp>
-#import <Math/CubismMatrix44.hpp>
-#import <Type/csmVector.hpp>
+#import "CubismFramework.hpp"
+#import "CubismMatrix44.hpp"
+#import "csmVector.hpp"
 #import "LAppModel.h"
 #import "LAppSprite.h"
 

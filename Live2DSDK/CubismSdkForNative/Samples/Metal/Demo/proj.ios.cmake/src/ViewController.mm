@@ -6,11 +6,11 @@
  */
 
 #import "ViewController.h"
-#import <math.h>
-#import <QuartzCore/QuartzCore.h>
-#import <QuartzCore/CAMetalLayer.h>
-#import <Metal/Metal.h>
-#import <string>
+#import "math.h"
+#import "QuartzCore.h"
+#import "CAMetalLayer.h"
+#import "Metal.h"
+#import "string"
 #import "CubismFramework.hpp"
 #import "AppDelegate.h"
 #import "LAppSprite.h"
@@ -21,9 +21,9 @@
 #import "LAppModel.h"
 #import "TouchManager.h"
 #import "MetalUIView.h"
-#import <Math/CubismMatrix44.hpp>
-#import <Math/CubismViewMatrix.hpp>
-#import "Rendering/Metal/CubismRenderingInstanceSingleton_Metal.h"
+#import "CubismMatrix44.hpp"
+#import "CubismViewMatrix.hpp"
+#import "CubismRenderingInstanceSingleton_Metal.h"
 
 #define BUFFER_OFFSET(bytes) ((GLubyte *)NULL + (bytes))
 

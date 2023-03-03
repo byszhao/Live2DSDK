@@ -9,7 +9,7 @@
 #define LAppDefine_h
 
 #import <Foundation/Foundation.h>
-#import <CubismFramework.hpp>
+#import "CubismFramework.hpp"
 
 /**
  * @brief  Sample Appで使用する定数

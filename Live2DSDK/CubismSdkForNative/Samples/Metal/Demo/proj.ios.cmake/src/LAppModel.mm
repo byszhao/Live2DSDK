@@ -7,20 +7,20 @@
 
 #import "LAppModel.h"
 #import <Foundation/Foundation.h>
-#import <fstream>
-#import <vector>
+#import "fstream"
+#import "vector"
 #import "LAppDefine.h"
 #import "LAppPal.h"
 #import "LAppTextureManager.h"
 #import "AppDelegate.h"
-#import <CubismDefaultParameterId.hpp>
-#import <CubismModelSettingJson.hpp>
-#import <Id/CubismIdManager.hpp>
-#import <Motion/CubismMotion.hpp>
-#import <Motion/CubismMotionQueueEntry.hpp>
-#import <Physics/CubismPhysics.hpp>
-#import <Rendering/Metal/CubismRenderer_Metal.hpp>
-#import <Utils/CubismString.hpp>
+#import "CubismDefaultParameterId.hpp"
+#import "CubismModelSettingJson.hpp"
+#import "CubismIdManager.hpp"
+#import "CubismMotion.hpp"
+#import "CubismMotionQueueEntry.hpp"
+#import "CubismPhysics.hpp"
+#import "CubismRenderer_Metal.hpp"
+#import "CubismString.hpp"
 
 using namespace Live2D::Cubism::Framework;
 using namespace Live2D::Cubism::Framework::DefaultParameterId;

@@ -8,9 +8,9 @@
 #import "LAppSprite.h"
 #import <Foundation/Foundation.h>
 #import "AppDelegate.h"
-#import <CubismFramework.hpp>
-#import <Rendering/Metal/CubismRenderer_Metal.hpp>
-#import "Rendering/Metal/CubismRenderingInstanceSingleton_Metal.h"
+#import "CubismFramework.hpp"
+#import "CubismRenderer_Metal.hpp"
+#import "CubismRenderingInstanceSingleton_Metal.h"
 
 #define BUFFER_OFFSET(bytes) ((GLubyte *)NULL + (bytes))
 
@@ -120,8 +120,6 @@ typedef struct
     CubismRenderingInstanceSingleton_Metal *single = [CubismRenderingInstanceSingleton_Metal sharedManager];
     id <MTLDevice> device = [single getMTLDevice];
     [self SetMTLBffer:device];
-
-    return self;
 }
 
 - (bool)isHit:(float)pointX PointY:(float)pointY
@@ -224,7 +222,7 @@ typedef struct
     if (!vertexProgram)
     {
         NSLog(@">> ERROR: Couldn't load vertex function from default library");
-        return nil;
+        return;
     }
 
     //フラグメントシェーダの取得
@@ -232,7 +230,7 @@ typedef struct
     if (!fragmentProgram)
     {
         NSLog(@" ERROR: Couldn't load fragment function from default library");
-        return nil;
+        return;
     }
 
     [self SetMTLRenderPipelineDescriptor:device vertexProgram:vertexProgram fragmentProgram:fragmentProgram];
@@ -278,7 +276,7 @@ typedef struct
     if (!_pipelineState)
     {
         NSLog(@"ERROR: Failed aquiring pipeline state: %@", error);
-        return nil;
+        return;
     }
 }
 @end

@@ -8,8 +8,8 @@
 #ifndef LAppPal_h
 #define LAppPal_h
 
-#import <string>
-#import <CubismFramework.hpp>
+#import "string"
+#import "CubismFramework.hpp"
 
 /**
  * @brief プラットフォーム依存機能を抽象化する Cubism Platform Abstraction Layer.

@@ -18,7 +18,7 @@
 #import "stb_image.h"
 #pragma clang diagnostic pop
 #import "LAppPal.h"
-#import "Rendering/Metal/CubismRenderingInstanceSingleton_Metal.h"
+#import "CubismRenderingInstanceSingleton_Metal.h"
 
 @interface LAppTextureManager()
 
