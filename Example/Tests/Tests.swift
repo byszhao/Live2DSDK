@@ -2,7 +2,7 @@
 
 import Quick
 import Nimble
-import 2DLiveSDK
+import Live2DSDK
 
 class TableOfContentsSpec: QuickSpec {
     override func spec() {

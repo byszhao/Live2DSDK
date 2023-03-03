@@ -1,9 +1,9 @@
-# 2DLiveSDK
+# Live2DSDK
 
-[![CI Status](https://img.shields.io/travis/wudijimao/2DLiveSDK.svg?style=flat)](https://travis-ci.org/wudijimao/2DLiveSDK)
-[![Version](https://img.shields.io/cocoapods/v/2DLiveSDK.svg?style=flat)](https://cocoapods.org/pods/2DLiveSDK)
-[![License](https://img.shields.io/cocoapods/l/2DLiveSDK.svg?style=flat)](https://cocoapods.org/pods/2DLiveSDK)
-[![Platform](https://img.shields.io/cocoapods/p/2DLiveSDK.svg?style=flat)](https://cocoapods.org/pods/2DLiveSDK)
+[![CI Status](https://img.shields.io/travis/wudijimao/Live2DSDK.svg?style=flat)](https://travis-ci.org/wudijimao/Live2DSDK)
+[![Version](https://img.shields.io/cocoapods/v/Live2DSDK.svg?style=flat)](https://cocoapods.org/pods/Live2DSDK)
+[![License](https://img.shields.io/cocoapods/l/Live2DSDK.svg?style=flat)](https://cocoapods.org/pods/Live2DSDK)
+[![Platform](https://img.shields.io/cocoapods/p/Live2DSDK.svg?style=flat)](https://cocoapods.org/pods/Live2DSDK)
 
 ## Example
 
@@ -11,13 +11,23 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+Base on CubismSdkForNative-4-r.6
+
+and run
+``` 
+sed -i "" 's/#include ".*\//#include "/g' **/*.*
+```
+in CubismSdkForNative folder
+
+We have done this.
+
 ## Installation
 
-2DLiveSDK is available through [CocoaPods](https://cocoapods.org). To install
+Live2DSDK is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod '2DLiveSDK'
+pod 'Live2DSDK'
 ```
 
 ## Author
@@ -26,4 +36,4 @@ wudijimao, wuximiao@rd.netease.com
 
 ## License
 
-2DLiveSDK is available under the MIT license. See the LICENSE file for more info.
+Live2DSDK is available under the MIT license. See the LICENSE file for more info.

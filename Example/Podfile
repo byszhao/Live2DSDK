@@ -1,11 +1,11 @@
 use_frameworks!
 
-platform :ios, '11.0'
+platform :ios, '10.0'
 
-target '2DLiveSDK_Example' do
-  pod '2DLiveSDK', :path => '../'
+target 'Live2DSDK_Example' do
+  pod 'Live2DSDK', :path => '../'
 
-  target '2DLiveSDK_Tests' do
+  target 'Live2DSDK_Tests' do
     inherit! :search_paths
 
     pod 'Quick', '~> 2.2.0'
