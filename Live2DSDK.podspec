@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/wudijimao/Live2DSDK'
+  s.homepage         = 'https://github.com/byszhao/Live2DSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'wudijimao' => 'wuximiao@rd.netease.com' }
-  s.source           = { :git => 'https://github.com/wudijimao/Live2DSDK.git', :tag => s.version.to_s }
+  s.author           = { 'byszhao' => 'byszhao@gmail.com' }
+  s.source           = { :git => 'https://github.com/byszhao/Live2DSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
@@ -62,6 +62,7 @@ TODO: Add long description of the pod here.
                       "Live2DSDK/CubismSdkForNative/Samples/Metal/thirdParty/stb/stb_image.h"
     sp.exclude_files = "Live2DSDK/CubismSdkForNative/Samples/Metal/Demo/proj.ios.cmake/src/AppDelegate.*",
     "Live2DSDK/CubismSdkForNative/Samples/Metal/Demo/proj.ios.cmake/src/ViewController.*",
+    "Live2DSDK/CubismSdkForNative/Samples/Metal/Demo/proj.ios.cmake/src/LApp*",
     "Live2DSDK/CubismSdkForNative/Samples/Metal/Demo/proj.ios.cmake/src/main.*"
     sp.requires_arc = false
     sp.libraries = 'c++'
